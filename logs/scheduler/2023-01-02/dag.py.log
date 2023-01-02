@@ -1,0 +1,264 @@
+[2023-01-02T01:57:09.719+0000] {processor.py:153} INFO - Started process (PID=34) to work on /opt/airflow/dags/dag.py
+[2023-01-02T01:57:09.720+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2023-01-02T01:57:09.721+0000] {logging_mixin.py:137} INFO - [2023-01-02T01:57:09.721+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2023-01-02T01:57:09.778+0000] {logging_mixin.py:137} INFO - [2023-01-02T01:57:09.770+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 19, in <module>
+    access_token = Variable.get('access_token')
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable access_token does not exist'
+[2023-01-02T01:57:09.779+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2023-01-02T01:57:09.800+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 0.084 seconds
+[2023-01-02T01:57:40.147+0000] {processor.py:153} INFO - Started process (PID=112) to work on /opt/airflow/dags/dag.py
+[2023-01-02T01:57:40.149+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2023-01-02T01:57:40.150+0000] {logging_mixin.py:137} INFO - [2023-01-02T01:57:40.150+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2023-01-02T01:57:40.196+0000] {logging_mixin.py:137} INFO - [2023-01-02T01:57:40.194+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 19, in <module>
+    access_token = Variable.get('access_token')
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable access_token does not exist'
+[2023-01-02T01:57:40.196+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2023-01-02T01:57:40.205+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 0.062 seconds
+[2023-01-02T01:58:10.811+0000] {processor.py:153} INFO - Started process (PID=177) to work on /opt/airflow/dags/dag.py
+[2023-01-02T01:58:10.813+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2023-01-02T01:58:10.814+0000] {logging_mixin.py:137} INFO - [2023-01-02T01:58:10.814+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2023-01-02T01:58:10.878+0000] {logging_mixin.py:137} INFO - [2023-01-02T01:58:10.876+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 19, in <module>
+    access_token = Variable.get('access_token')
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable access_token does not exist'
+[2023-01-02T01:58:10.878+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2023-01-02T01:58:10.900+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 0.094 seconds
+[2023-01-02T02:00:40.985+0000] {processor.py:153} INFO - Started process (PID=34) to work on /opt/airflow/dags/dag.py
+[2023-01-02T02:00:40.990+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2023-01-02T02:00:40.992+0000] {logging_mixin.py:137} INFO - [2023-01-02T02:00:40.992+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2023-01-02T02:00:41.056+0000] {logging_mixin.py:137} INFO - [2023-01-02T02:00:41.053+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 19, in <module>
+    access_token = Variable.get('access_token')
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable access_token does not exist'
+[2023-01-02T02:00:41.056+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2023-01-02T02:00:41.066+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 0.091 seconds
+[2023-01-02T02:01:11.307+0000] {processor.py:153} INFO - Started process (PID=112) to work on /opt/airflow/dags/dag.py
+[2023-01-02T02:01:11.309+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2023-01-02T02:01:11.311+0000] {logging_mixin.py:137} INFO - [2023-01-02T02:01:11.310+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2023-01-02T02:01:11.402+0000] {logging_mixin.py:137} INFO - [2023-01-02T02:01:11.398+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 19, in <module>
+    access_token = Variable.get('access_token')
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable access_token does not exist'
+[2023-01-02T02:01:11.403+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2023-01-02T02:01:11.431+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 0.130 seconds
+[2023-01-02T02:01:42.155+0000] {processor.py:153} INFO - Started process (PID=177) to work on /opt/airflow/dags/dag.py
+[2023-01-02T02:01:42.158+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2023-01-02T02:01:42.159+0000] {logging_mixin.py:137} INFO - [2023-01-02T02:01:42.159+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2023-01-02T02:01:42.213+0000] {logging_mixin.py:137} INFO - [2023-01-02T02:01:42.211+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 19, in <module>
+    access_token = Variable.get('access_token')
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable access_token does not exist'
+[2023-01-02T02:01:42.214+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2023-01-02T02:01:42.224+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 0.078 seconds
+[2023-01-02T02:02:12.834+0000] {processor.py:153} INFO - Started process (PID=255) to work on /opt/airflow/dags/dag.py
+[2023-01-02T02:02:12.836+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2023-01-02T02:02:12.838+0000] {logging_mixin.py:137} INFO - [2023-01-02T02:02:12.837+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2023-01-02T02:02:12.881+0000] {logging_mixin.py:137} INFO - [2023-01-02T02:02:12.879+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 19, in <module>
+    access_token = Variable.get('access_token')
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable access_token does not exist'
+[2023-01-02T02:02:12.882+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2023-01-02T02:02:12.891+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 0.062 seconds
+[2023-01-02T02:02:43.328+0000] {processor.py:153} INFO - Started process (PID=330) to work on /opt/airflow/dags/dag.py
+[2023-01-02T02:02:43.330+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2023-01-02T02:02:43.331+0000] {logging_mixin.py:137} INFO - [2023-01-02T02:02:43.331+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2023-01-02T02:02:43.383+0000] {logging_mixin.py:137} INFO - [2023-01-02T02:02:43.381+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 20, in <module>
+    project_id = Variable.get('project_id')
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable project_id does not exist'
+[2023-01-02T02:02:43.384+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2023-01-02T02:02:43.394+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 0.073 seconds
+[2023-01-02T02:03:14.334+0000] {processor.py:153} INFO - Started process (PID=399) to work on /opt/airflow/dags/dag.py
+[2023-01-02T02:03:14.336+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2023-01-02T02:03:14.337+0000] {logging_mixin.py:137} INFO - [2023-01-02T02:03:14.337+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2023-01-02T02:03:14.396+0000] {logging_mixin.py:137} INFO - [2023-01-02T02:03:14.394+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 20, in <module>
+    project_id = Variable.get('project_id')
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable project_id does not exist'
+[2023-01-02T02:03:14.398+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2023-01-02T02:03:14.409+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 0.081 seconds
+[2023-01-02T02:03:44.705+0000] {processor.py:153} INFO - Started process (PID=477) to work on /opt/airflow/dags/dag.py
+[2023-01-02T02:03:44.708+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2023-01-02T02:03:44.709+0000] {logging_mixin.py:137} INFO - [2023-01-02T02:03:44.709+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2023-01-02T02:03:44.750+0000] {logging_mixin.py:137} INFO - [2023-01-02T02:03:44.749+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 21, in <module>
+    job_name = Variable.get('job_name')
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable job_name does not exist'
+[2023-01-02T02:03:44.751+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2023-01-02T02:03:44.758+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 0.059 seconds
+[2023-01-02T02:04:14.855+0000] {processor.py:153} INFO - Started process (PID=542) to work on /opt/airflow/dags/dag.py
+[2023-01-02T02:04:14.857+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2023-01-02T02:04:14.858+0000] {logging_mixin.py:137} INFO - [2023-01-02T02:04:14.857+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2023-01-02T02:04:14.917+0000] {logging_mixin.py:137} INFO - [2023-01-02T02:04:14.915+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 21, in <module>
+    job_name = Variable.get('job_name')
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable job_name does not exist'
+[2023-01-02T02:04:14.918+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2023-01-02T02:04:14.926+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 0.077 seconds
+[2023-01-02T02:04:45.786+0000] {processor.py:153} INFO - Started process (PID=621) to work on /opt/airflow/dags/dag.py
+[2023-01-02T02:04:45.788+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2023-01-02T02:04:45.789+0000] {logging_mixin.py:137} INFO - [2023-01-02T02:04:45.789+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2023-01-02T02:04:45.838+0000] {processor.py:753} INFO - DAG(s) dict_keys(['Data-Pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2023-01-02T02:04:46.000+0000] {logging_mixin.py:137} INFO - [2023-01-02T02:04:46.000+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:Data-Pipeline
+[2023-01-02T02:04:46.006+0000] {logging_mixin.py:137} INFO - [2023-01-02T02:04:46.006+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:Data-Pipeline
+[2023-01-02T02:04:46.010+0000] {logging_mixin.py:137} INFO - [2023-01-02T02:04:46.010+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:Data-Pipeline
+[2023-01-02T02:04:46.011+0000] {logging_mixin.py:137} INFO - [2023-01-02T02:04:46.011+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T02:04:46.019+0000] {logging_mixin.py:137} INFO - [2023-01-02T02:04:46.019+0000] {dag.py:2697} INFO - Creating ORM DAG for Data-Pipeline
+[2023-01-02T02:04:46.027+0000] {logging_mixin.py:137} INFO - [2023-01-02T02:04:46.026+0000] {dag.py:3427} INFO - Setting next_dagrun for Data-Pipeline to 2023-01-01T02:04:46.026687+00:00, run_after=2023-01-02T02:04:46.026687+00:00
+[2023-01-02T02:04:46.043+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 0.262 seconds
+[2023-01-02T02:04:47.404+0000] {processor.py:153} INFO - Started process (PID=645) to work on /opt/airflow/dags/dag.py
+[2023-01-02T02:04:47.405+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2023-01-02T02:04:47.406+0000] {logging_mixin.py:137} INFO - [2023-01-02T02:04:47.406+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2023-01-02T02:04:47.451+0000] {processor.py:753} INFO - DAG(s) dict_keys(['Data-Pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2023-01-02T02:04:47.455+0000] {logging_mixin.py:137} INFO - [2023-01-02T02:04:47.455+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T02:04:47.471+0000] {logging_mixin.py:137} INFO - [2023-01-02T02:04:47.471+0000] {dag.py:3427} INFO - Setting next_dagrun for Data-Pipeline to 2023-01-01T02:04:47.471519+00:00, run_after=2023-01-02T02:04:47.471519+00:00
+[2023-01-02T02:04:47.487+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 0.085 seconds
+[2023-01-02T02:05:17.893+0000] {processor.py:153} INFO - Started process (PID=722) to work on /opt/airflow/dags/dag.py
+[2023-01-02T02:05:17.894+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2023-01-02T02:05:17.895+0000] {logging_mixin.py:137} INFO - [2023-01-02T02:05:17.895+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2023-01-02T02:05:17.943+0000] {processor.py:753} INFO - DAG(s) dict_keys(['Data-Pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2023-01-02T02:05:17.976+0000] {logging_mixin.py:137} INFO - [2023-01-02T02:05:17.976+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T02:05:17.993+0000] {logging_mixin.py:137} INFO - [2023-01-02T02:05:17.993+0000] {dag.py:3427} INFO - Setting next_dagrun for Data-Pipeline to 2023-01-02T02:04:47.471519+00:00, run_after=2023-01-03T02:04:47.471519+00:00
+[2023-01-02T02:05:18.006+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 0.116 seconds
+[2023-01-02T02:05:48.667+0000] {processor.py:153} INFO - Started process (PID=787) to work on /opt/airflow/dags/dag.py
+[2023-01-02T02:05:48.669+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2023-01-02T02:05:48.670+0000] {logging_mixin.py:137} INFO - [2023-01-02T02:05:48.670+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2023-01-02T02:05:48.709+0000] {processor.py:753} INFO - DAG(s) dict_keys(['Data-Pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2023-01-02T02:05:48.719+0000] {logging_mixin.py:137} INFO - [2023-01-02T02:05:48.719+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T02:05:48.735+0000] {logging_mixin.py:137} INFO - [2023-01-02T02:05:48.735+0000] {dag.py:3427} INFO - Setting next_dagrun for Data-Pipeline to 2023-01-02T02:04:47.471519+00:00, run_after=2023-01-03T02:04:47.471519+00:00
+[2023-01-02T02:05:48.748+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 0.084 seconds
+[2023-01-02T02:06:18.856+0000] {processor.py:153} INFO - Started process (PID=860) to work on /opt/airflow/dags/dag.py
+[2023-01-02T02:06:18.857+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2023-01-02T02:06:18.858+0000] {logging_mixin.py:137} INFO - [2023-01-02T02:06:18.858+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2023-01-02T02:06:18.899+0000] {processor.py:753} INFO - DAG(s) dict_keys(['Data-Pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2023-01-02T02:06:18.909+0000] {logging_mixin.py:137} INFO - [2023-01-02T02:06:18.909+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T02:06:18.926+0000] {logging_mixin.py:137} INFO - [2023-01-02T02:06:18.926+0000] {dag.py:3427} INFO - Setting next_dagrun for Data-Pipeline to 2023-01-02T02:04:47.471519+00:00, run_after=2023-01-03T02:04:47.471519+00:00
+[2023-01-02T02:06:18.938+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 0.085 seconds
+[2023-01-02T02:06:49.085+0000] {processor.py:153} INFO - Started process (PID=932) to work on /opt/airflow/dags/dag.py
+[2023-01-02T02:06:49.087+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2023-01-02T02:06:49.088+0000] {logging_mixin.py:137} INFO - [2023-01-02T02:06:49.088+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2023-01-02T02:06:49.136+0000] {processor.py:753} INFO - DAG(s) dict_keys(['Data-Pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2023-01-02T02:06:49.150+0000] {logging_mixin.py:137} INFO - [2023-01-02T02:06:49.149+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T02:06:49.168+0000] {logging_mixin.py:137} INFO - [2023-01-02T02:06:49.167+0000] {dag.py:3427} INFO - Setting next_dagrun for Data-Pipeline to 2023-01-02T02:04:47.471519+00:00, run_after=2023-01-03T02:04:47.471519+00:00
+[2023-01-02T02:06:49.183+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 0.101 seconds
+[2023-01-02T02:07:19.791+0000] {processor.py:153} INFO - Started process (PID=998) to work on /opt/airflow/dags/dag.py
+[2023-01-02T02:07:19.793+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2023-01-02T02:07:19.793+0000] {logging_mixin.py:137} INFO - [2023-01-02T02:07:19.793+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2023-01-02T02:07:19.834+0000] {processor.py:753} INFO - DAG(s) dict_keys(['Data-Pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2023-01-02T02:07:19.843+0000] {logging_mixin.py:137} INFO - [2023-01-02T02:07:19.843+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T02:07:19.860+0000] {logging_mixin.py:137} INFO - [2023-01-02T02:07:19.860+0000] {dag.py:3427} INFO - Setting next_dagrun for Data-Pipeline to 2023-01-02T02:04:47.471519+00:00, run_after=2023-01-03T02:04:47.471519+00:00
+[2023-01-02T02:07:19.872+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 0.084 seconds
+[2023-01-02T02:07:50.196+0000] {processor.py:153} INFO - Started process (PID=1073) to work on /opt/airflow/dags/dag.py
+[2023-01-02T02:07:50.197+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2023-01-02T02:07:50.198+0000] {logging_mixin.py:137} INFO - [2023-01-02T02:07:50.198+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2023-01-02T02:07:50.245+0000] {processor.py:753} INFO - DAG(s) dict_keys(['Data-Pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2023-01-02T02:07:50.256+0000] {logging_mixin.py:137} INFO - [2023-01-02T02:07:50.256+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T02:07:50.275+0000] {logging_mixin.py:137} INFO - [2023-01-02T02:07:50.275+0000] {dag.py:3427} INFO - Setting next_dagrun for Data-Pipeline to 2023-01-02T02:04:47.471519+00:00, run_after=2023-01-03T02:04:47.471519+00:00
+[2023-01-02T02:07:50.288+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 0.095 seconds
+[2023-01-02T02:08:20.514+0000] {processor.py:153} INFO - Started process (PID=1135) to work on /opt/airflow/dags/dag.py
+[2023-01-02T02:08:20.515+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2023-01-02T02:08:20.516+0000] {logging_mixin.py:137} INFO - [2023-01-02T02:08:20.516+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2023-01-02T02:08:20.557+0000] {processor.py:753} INFO - DAG(s) dict_keys(['Data-Pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2023-01-02T02:08:20.566+0000] {logging_mixin.py:137} INFO - [2023-01-02T02:08:20.566+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T02:08:20.582+0000] {logging_mixin.py:137} INFO - [2023-01-02T02:08:20.582+0000] {dag.py:3427} INFO - Setting next_dagrun for Data-Pipeline to 2023-01-02T02:04:47.471519+00:00, run_after=2023-01-03T02:04:47.471519+00:00
+[2023-01-02T02:08:20.592+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 0.081 seconds
+[2023-01-02T02:08:51.251+0000] {processor.py:153} INFO - Started process (PID=1207) to work on /opt/airflow/dags/dag.py
+[2023-01-02T02:08:51.254+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2023-01-02T02:08:51.256+0000] {logging_mixin.py:137} INFO - [2023-01-02T02:08:51.256+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2023-01-02T02:08:51.355+0000] {processor.py:753} INFO - DAG(s) dict_keys(['Data-Pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2023-01-02T02:08:51.373+0000] {logging_mixin.py:137} INFO - [2023-01-02T02:08:51.373+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T02:08:51.394+0000] {logging_mixin.py:137} INFO - [2023-01-02T02:08:51.394+0000] {dag.py:3427} INFO - Setting next_dagrun for Data-Pipeline to 2023-01-02T02:04:47.471519+00:00, run_after=2023-01-03T02:04:47.471519+00:00
+[2023-01-02T02:08:51.420+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 0.178 seconds
+[2023-01-02T02:09:21.728+0000] {processor.py:153} INFO - Started process (PID=1286) to work on /opt/airflow/dags/dag.py
+[2023-01-02T02:09:21.730+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2023-01-02T02:09:21.731+0000] {logging_mixin.py:137} INFO - [2023-01-02T02:09:21.731+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2023-01-02T02:09:21.817+0000] {processor.py:753} INFO - DAG(s) dict_keys(['Data-Pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2023-01-02T02:09:21.840+0000] {logging_mixin.py:137} INFO - [2023-01-02T02:09:21.840+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T02:09:21.862+0000] {logging_mixin.py:137} INFO - [2023-01-02T02:09:21.862+0000] {dag.py:3427} INFO - Setting next_dagrun for Data-Pipeline to 2023-01-02T02:04:47.471519+00:00, run_after=2023-01-03T02:04:47.471519+00:00
+[2023-01-02T02:09:21.877+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 0.157 seconds
+[2023-01-02T02:09:52.100+0000] {processor.py:153} INFO - Started process (PID=1351) to work on /opt/airflow/dags/dag.py
+[2023-01-02T02:09:52.103+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2023-01-02T02:09:52.105+0000] {logging_mixin.py:137} INFO - [2023-01-02T02:09:52.104+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2023-01-02T02:09:52.215+0000] {processor.py:753} INFO - DAG(s) dict_keys(['Data-Pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2023-01-02T02:09:52.232+0000] {logging_mixin.py:137} INFO - [2023-01-02T02:09:52.232+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T02:09:52.252+0000] {logging_mixin.py:137} INFO - [2023-01-02T02:09:52.252+0000] {dag.py:3427} INFO - Setting next_dagrun for Data-Pipeline to 2023-01-02T02:04:47.471519+00:00, run_after=2023-01-03T02:04:47.471519+00:00
+[2023-01-02T02:09:52.267+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 0.176 seconds

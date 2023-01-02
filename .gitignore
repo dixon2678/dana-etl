@@ -1,0 +1,6 @@
+sql
+*.parquet
+*.csv
+*.json
+*.ipynb
+functions_testing.ipynb

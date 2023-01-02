@@ -1,0 +1,54 @@
+[2023-01-02T02:06:44.155+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: Data-Pipeline.upload_to_GCS manual__2023-01-02T02:05:18.859430+00:00 [queued]>
+[2023-01-02T02:06:44.162+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: Data-Pipeline.upload_to_GCS manual__2023-01-02T02:05:18.859430+00:00 [queued]>
+[2023-01-02T02:06:44.163+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-02T02:06:44.164+0000] {taskinstance.py:1284} INFO - Starting attempt 1 of 2
+[2023-01-02T02:06:44.165+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-02T02:06:44.175+0000] {taskinstance.py:1304} INFO - Executing <Task(SimpleHttpOperator): upload_to_GCS> on 2023-01-02 02:05:18.859430+00:00
+[2023-01-02T02:06:44.181+0000] {standard_task_runner.py:55} INFO - Started process 486 to run t***k
+[2023-01-02T02:06:44.186+0000] {standard_task_runner.py:82} INFO - Running: ['***', 't***ks', 'run', 'Data-Pipeline', 'upload_to_GCS', 'manual__2023-01-02T02:05:18.859430+00:00', '--job-id', '12', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/tmp/tmpxpvjfftf']
+[2023-01-02T02:06:44.187+0000] {standard_task_runner.py:83} INFO - Job 12: Subt***k upload_to_GCS
+[2023-01-02T02:06:44.259+0000] {task_command.py:389} INFO - Running <TaskInstance: Data-Pipeline.upload_to_GCS manual__2023-01-02T02:05:18.859430+00:00 [running]> on host 9d60a52344b3
+[2023-01-02T02:06:44.310+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=dixon2678@gmail.com
+AIRFLOW_CTX_DAG_OWNER=dixon
+AIRFLOW_CTX_DAG_ID=Data-Pipeline
+AIRFLOW_CTX_TASK_ID=upload_to_GCS
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-02T02:05:18.859430+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-01-02T02:05:18.859430+00:00
+[2023-01-02T02:06:44.311+0000] {http.py:123} INFO - Calling HTTP method
+[2023-01-02T02:06:44.313+0000] {base.py:73} INFO - Using connection ID 'etl_service' for t***k execution.
+[2023-01-02T02:06:44.316+0000] {http.py:150} INFO - Sending 'POST' to url: http://etl:5777/api/load_to_gcs
+[2023-01-02T02:06:44.328+0000] {http.py:163} ERROR - HTTP error: INTERNAL SERVER ERROR
+[2023-01-02T02:06:44.328+0000] {http.py:164} ERROR - <!doctype html>
+<html lang=en>
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and w*** unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+[2023-01-02T02:06:44.336+0000] {taskinstance.py:1772} ERROR - T***k failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/http/hooks/http.py", line 161, in check_response
+    response.raise_for_status()
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: INTERNAL SERVER ERROR for url: http://etl:5777/api/load_to_gcs
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/http/operators/http.py", line 125, in execute
+    response = http.run(self.endpoint, self.data, self.headers, self.extra_options)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/http/hooks/http.py", line 151, in run
+    return self.run_and_check(session, prepped_request, extra_options)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/http/hooks/http.py", line 204, in run_and_check
+    self.check_response(response)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/http/hooks/http.py", line 165, in check_response
+    raise AirflowException(str(response.status_code) + ":" + response.reason)
+airflow.exceptions.AirflowException: 500:INTERNAL SERVER ERROR
+[2023-01-02T02:06:44.340+0000] {taskinstance.py:1327} INFO - Marking t***k *** UP_FOR_RETRY. dag_id=Data-Pipeline, t***k_id=upload_to_GCS, execution_date=20230102T020518, start_date=20230102T020644, end_date=20230102T020644
+[2023-01-02T02:06:44.348+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 12 for t***k upload_to_GCS (500:INTERNAL SERVER ERROR; 486)
+[2023-01-02T02:06:44.398+0000] {local_task_job.py:159} INFO - T***k exited with return code 1
+[2023-01-02T02:06:44.416+0000] {taskinstance.py:2582} INFO - 0 downstream t***ks scheduled from follow-on schedule check
